@@ -19,6 +19,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap;
+  align-items: center;
   padding: 1.5rem 0;
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
@@ -28,14 +29,6 @@ img {
 .footer h2 {
   margin-top: 0;
   margin-bottom: 1.5rem;
-}
-
-.social > li {
-  width: 3em;
-}
-
-.copyright {
-  width: 100%;
 }
 
 .footer ul {
@@ -54,5 +47,17 @@ img {
 }
 
 .social {
+  margin-left: auto;
+  padding: 0 1rem;
   display: flex;
+}
+
+.social > li {
+  margin: 0 .5em;
+  width: 3em;
+}
+
+.copyright {
+  padding: 0 1rem;
+  width: 100%;
 }
